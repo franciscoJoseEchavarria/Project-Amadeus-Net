@@ -47,5 +47,7 @@ Este es un proyecto de backend desarrollado en C# utilizando ASP.NET Core. El pr
 
 1. Ejecuta la aplicación:
     ```
-    dotnet run
+    dotnet run -- escribi
     `git ``
+    
+    
