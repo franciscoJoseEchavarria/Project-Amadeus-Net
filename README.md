@@ -21,7 +21,7 @@ Este es un proyecto de backend desarrollado en C# utilizando ASP.NET Core. El pr
     ```sh
    
    {
-  "ConnectionStrings": {
+  ConnectionStrings": {
     "DefaultConnection": "Host=localhost;Database=YourDatabaseName;Username=YourUsername;Password=YourPassword"
     },
     "Logging": {
@@ -48,4 +48,4 @@ Este es un proyecto de backend desarrollado en C# utilizando ASP.NET Core. El pr
 1. Ejecuta la aplicación:
     ```
     dotnet run
-    ```
+    `git ``
