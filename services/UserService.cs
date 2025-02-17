@@ -39,6 +39,10 @@ namespace proyectoBackendAmadeusNet.services{
         {
             return await _userRepository.DeleteUser(id);
         }
+         public async Task<UserModel> AuthenticateUserAsync(string correo, string? contraseña)
+        {
+            return await _userRepository.AuthenticateUser(correo, contraseña);
+        }
 
     }    
     

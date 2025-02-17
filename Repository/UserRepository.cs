@@ -74,6 +74,27 @@ namespace proyectoBackendAmadeusNet.Repository
             // Devolvemos el usuario eliminado para indicar que la eliminación fue exitosa
             return user;
         }
+        // aautenticate user, si contraseña es null, solo se busca por correo
+         public async Task<UserModel> AuthenticateUser(string correo, string? contraseña)
+        {
+            if (contraseña == null)
+            {
+                return await _context.Users.FirstOrDefaultAsync(u => u.correo == correo);
+            }
+            // Si la contraseña no es nula, se busca por correo y contraseña
+            else
+            {
+                return await _context.Users
+                .FirstOrDefaultAsync(u => u.correo == correo && u.contraseña == contraseña);
+            }
+            else
+            {
+                return await _context.Users
+                .FirstOrDefaultAsync(u => u.correo == correo && u.contraseña == contraseña);
+            }
+        }
+
+
 
     }
 }

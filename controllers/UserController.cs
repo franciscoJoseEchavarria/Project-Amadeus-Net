@@ -1,7 +1,4 @@
 
-
-
-
 using proyectoBackendAmadeusNet.services.interfaces;
 using proyectoBackendAmadeusNet.Repository.Interfaces;
 using Microsoft.AspNetCore.Mvc;
@@ -43,7 +40,18 @@ namespace proyectoBackendAmadeusNet.controllers{
             return Ok(userCreated);
         }
 
+        [HttpPost("login")]
+        public async Task<ActionResult<UserModel>> Login([FromBody] LoginDTO loginDto)
+        {
+            var user = await _userService.AuthenticateUserAsync(loginDto.Correo, loginDto.Contrasena);
+            if (user == null)
+            {
+                return Unauthorized();
+            }
+            return Ok(user);
+        }
     }
 
-
 }
+
+

@@ -23,5 +23,10 @@ namespace proyectoBackendAmadeusNet.Repository.Interfaces
 
         // Método para eliminar un usuario por su ID de manera asíncrona
         Task<UserModel> DeleteUser(int id);
+                
+        // Para autenticación
+        Task<UserModel> AuthenticateUser(string correo, string? contrasena);
+
+
     }
 }

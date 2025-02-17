@@ -132,3 +132,6 @@ C:\Users\ROG STRIX\Desktop\proyecto-C#-Amadeus\proyectoBackendAmadeusNet\bin\Deb
 C:\Users\ROG STRIX\Desktop\proyecto-C#-Amadeus\proyectoBackendAmadeusNet\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\ROG STRIX\Desktop\proyecto-C#-Amadeus\proyectoBackendAmadeusNet\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\ROG STRIX\Desktop\proyecto-C#-Amadeus\proyectoBackendAmadeusNet\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\ROG STRIX\Desktop\proyecto-C#-Amadeus\proyectoBackendAmadeusNet\bin\Debug\net9.0\package-lock.json
+C:\Users\ROG STRIX\Desktop\proyecto-C#-Amadeus\proyectoBackendAmadeusNet\bin\Debug\net9.0\package.json
+C:\Users\ROG STRIX\Desktop\proyecto-C#-Amadeus\proyectoBackendAmadeusNet\obj\Debug\net9.0\proyectoBackendAmadeusNet.sourcelink.json
